@@ -10,12 +10,15 @@ pull_request_rules:
       - status-success=Python (3.7, macos-latest)
       - status-success=Python (3.8, macos-latest)
       - status-success=Python (3.9, macos-latest)
+      - status-success=Python (3.10, macos-latest)
       - status-success=Python (3.7, ubuntu-latest)
       - status-success=Python (3.8, ubuntu-latest)
       - status-success=Python (3.9, ubuntu-latest)
+      - status-success=Python (3.10, ubuntu-latest)
       - status-success=Python (3.7, windows-latest)
       - status-success=Python (3.8, windows-latest)
       - status-success=Python (3.9, windows-latest)
+      - status-success=Python (3.10, windows-latest)
       - "status-success=ci/circleci: build"
       #- status-success=codecov/patch
       #- status-success=codecov/project/c-tests
@@ -46,12 +49,15 @@ pull_request_rules:
       - status-success=Python (3.7, macos-latest)
       - status-success=Python (3.8, macos-latest)
       - status-success=Python (3.9, macos-latest)
+      - status-success=Python (3.10, macos-latest)
       - status-success=Python (3.7, ubuntu-latest)
       - status-success=Python (3.8, ubuntu-latest)
       - status-success=Python (3.9, ubuntu-latest)
+      - status-success=Python (3.10, ubuntu-latest)
       - status-success=Python (3.7, windows-latest)
       - status-success=Python (3.8, windows-latest)
       - status-success=Python (3.9, windows-latest)
+      - status-success=Python (3.10, windows-latest)
       - "status-success=ci/circleci: build"
     actions:
       merge:
