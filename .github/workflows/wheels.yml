@@ -3,8 +3,7 @@ name: Binary wheels
 on:
   push:
     branches:
-      - main
-      - test
+      - '*'
     tags:
       - '*'
   release:
